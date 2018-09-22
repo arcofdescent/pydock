@@ -1,5 +1,0 @@
-version: '3'
-services:
-  web:
-    build: .
-    image: pydock:1.1

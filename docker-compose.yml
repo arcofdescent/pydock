@@ -1,7 +1,10 @@
 version: '3'
 services:
   web:
-    image: ghetto:5000/pydock:1.1
+    image: pydock:1.0
     container_name: pydock
     ports:
       - "8080:8080"
+    environment:
+      - DOCKER=1
+      
